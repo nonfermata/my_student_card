@@ -26,10 +26,15 @@
         border-radius: 0;
         border: none;
         margin-bottom: 0;
+        padding: 20px 30px;
     }
 
     .card:last-child {
         padding-bottom: 60px;
+    }
+
+    .week {
+        width: 100%;
     }
 }
 
