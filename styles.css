@@ -141,6 +141,10 @@ span.no_wrap {
     color: #337760;
 }
 
+.day_time {
+    text-align: center;
+}
+
 .courses {
     width: 100%;
     border-spacing: 0;
