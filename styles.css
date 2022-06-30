@@ -44,6 +44,10 @@ h2 {
     font-size: 22px;
 }
 
+span.no_wrap {
+	white-space: nowrap;
+}
+
 .info {
     display: flex;
     padding: 30px;
@@ -116,25 +120,25 @@ h2 {
     color: #337760;
 }
 
-.schedule {
+.week {
     width: 80%;
     margin: 0 auto;
-    border-spacing: 0;
 }
 
-.schedule td {
+.day {
+    display: flex;
     padding: 10px;
-    border-bottom: 1px solid #ffffff;
-    margin: 0;
+    border-bottom: 1px solid #fff ;
 }
-
-.schedule td:nth-child(1) {
-    color: #337760;
-}
-
-.schedule tr:last-child td {
+.day:last-child {
     border-bottom: none;
-
+}
+.day_name,
+.day_time {
+    width: 50%;
+}
+.day_name {
+    color: #337760;
 }
 
 .courses {
