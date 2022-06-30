@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .info .info_text {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .info {
+        margin-bottom: 0;
+    }
+
+    .card {
+        border-radius: 0;
+        border: none;
+        margin-bottom: 0;
+    }
+
+    .card:nth-child(3) {
+        padding: 30px 0;
+    }
+
+    .card:last-child {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .courses td:nth-child(3),
+    .courses th:nth-child(3)
+     {
+        display: none;
+    }
+}
